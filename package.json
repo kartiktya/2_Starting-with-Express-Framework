@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon 2_introToMiddlewares/app.js",
-    "start-server": "node 2_introToMiddlewares/app.js"
+    "start": "nodemon 3_routersAndFilters/app.js",
+    "start-server": "node 3_routersAndFilters/app.js"
   },
   "author": "Kartik",
   "license": "ISC",
