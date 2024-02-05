@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./4_simpleGroupChatApplication/app2.js",
-    "start-server": "node ./4_simpleGroupChatApplication/app.js"
+    "start": "nodemon ./5_servingHtmlCssAndJs(VIEWS)/app.js",
+    "start-server": "node ./5_servingHtmlCssAndJs(VIEWS)/app.js"
   },
   "author": "Kartik",
   "license": "ISC",
