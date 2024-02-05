@@ -23,4 +23,12 @@ router.post('/add-product', (req, res, next) => {
     res.redirect('/');
 });
 
-module.exports = router;    //router is a object having two routes registered, here exportig router
+router.get('/contactUs', (req, res, next) => {
+    res.sendFile(path.join(rootDir, 'views' , 'contactUs.html'));
+});
+
+router.post('/success', (req, res, next) => {
+    res.sendFile(path.join(rootDir, 'views' , 'contactUsFormSubmissionMessage.html'));
+});
+
+module.exports = router;  
