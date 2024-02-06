@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./6_whatTheHellAreControllers/app.js",
-    "start-server": "node ./6_whatTheHellAreControllers/app.js"
+    "start": "nodemon ./7_whatTheHellAreModels/app.js",
+    "start-server": "node ./7_whatTheHellAreModels/app.js"
   },
   "author": "Kartik",
   "license": "ISC",
